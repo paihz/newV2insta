@@ -230,7 +230,7 @@ return [
         // Add by paihz
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class
+        'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class,
 
     ],
 

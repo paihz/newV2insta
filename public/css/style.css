@@ -413,7 +413,7 @@ button.close:hover {
 .textcenter { text-align:center; }
 .textright { text-align:right; }
 .textleft { text-align:left; }
-
+.alert { margin: 20px; }
 .alert h4 { margin-bottom:10px; }
 
 .tooltip {
