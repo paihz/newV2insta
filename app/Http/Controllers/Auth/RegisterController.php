@@ -34,6 +34,7 @@ class RegisterController extends Controller
      * @var string
      */
     protected $redirectTo = '/home';
+    
 
     /**
      * Create a new controller instance.
@@ -88,7 +89,7 @@ class RegisterController extends Controller
             $this->guard()->login($user);
 
             UserVerification::generate($user);
-            UserVerification::send($user, 'My Custom E-mail Subject');
+            UserVerification::send($user, 'Verification your email');
 
             return redirect($this->redirectPath());
         }

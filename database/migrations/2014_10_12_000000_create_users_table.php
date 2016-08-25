@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->decimal('balance', 5, 2)->default(0);
             $table->boolean('is_admin')->default(false);
             $table->boolean('verified')->default(false);
             $table->string('verification_token')->nullable();

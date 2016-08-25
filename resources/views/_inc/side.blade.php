@@ -1,19 +1,53 @@
 <nav class="left-menu" left-menu>
     <div class="logo-container">
-        <a href="index.html" class="logo">
-            <img src="{{ asset('images/logo.png') }}" alt="Clean UI Admin Template" />
+        <a href="/home" class="logo">
+            <img src="{{ asset('images/logo.png') }}" alt="instaforex dashboard" />
             
         </a>
     </div>
     <div class="left-menu-inner scroll-pane">
         <ul class="left-menu-list left-menu-list-root list-unstyled">
-            <li class="left-menu-list-active">
-                <a class="left-menu-link" href="index.html">
+            <li >
+                <a class="left-menu-link" href="/home">
                     <i class="left-menu-link-icon icmn-home2"><!-- --></i>
                     <span class="menu-top-hidden">Dashboard</span>
                 </a>
             </li>
+            <li>
+                <a class="left-menu-link" href="index.html">
+                    <i class="left-menu-link-icon icmn-user-tie"><!-- --></i>
+                    <span class="menu-top-hidden">Profile</span>
+                </a>
+            </li>
+             <li class="left-menu-list-submenu">
+                <a class="left-menu-link" href="javascript: void(0);">
+                    <i class="left-menu-link-icon icmn-user-tie"><!-- --></i> Profile
+                </a>
+                <ul class="left-menu-list list-unstyled">
+                    <li>
+                        <a class="left-menu-link" href="charts-chartistjs.html">
+                            Chartist.js
+                        </a>
+                    </li>
+                    <li>
+                        <a class="left-menu-link" href="charts-c3.html">
+                            C3
+                        </a>
+                    </li>
+                    <li>
+                        <a class="left-menu-link" href="charts-peity.html">
+                            Peity
+                        </a>
+                    </li>
+                </ul>
+            </li>
             <li class="left-menu-list-separator"><!-- --></li>
+            <li>
+                <a class="left-menu-link" href="{{ action('Auth\LoginController@logout') }}">
+                    <i class="left-menu-link-icon icmn-exit3"><!-- --></i>
+                    <span class="menu-top-hidden">Log Out</span>
+                </a>
+            </li>
             <li class="left-menu-list-submenu">
                 <a class="left-menu-link" href="javascript: void(0);">
                     Forms
