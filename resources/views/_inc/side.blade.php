@@ -13,30 +13,60 @@
                     <span class="menu-top-hidden">Dashboard</span>
                 </a>
             </li>
-            <li>
-                <a class="left-menu-link" href="index.html">
-                    <i class="left-menu-link-icon icmn-user-tie"><!-- --></i>
-                    <span class="menu-top-hidden">Profile</span>
-                </a>
-            </li>
-             <li class="left-menu-list-submenu">
+            <li class="left-menu-list-submenu">
                 <a class="left-menu-link" href="javascript: void(0);">
                     <i class="left-menu-link-icon icmn-user-tie"><!-- --></i> Profile
                 </a>
                 <ul class="left-menu-list list-unstyled">
                     <li>
-                        <a class="left-menu-link" href="charts-chartistjs.html">
-                            Chartist.js
+                        <a class="left-menu-link" href="{{ action('ProfileController@editProfile') }}">
+                            Edit Profile
                         </a>
                     </li>
                     <li>
-                        <a class="left-menu-link" href="charts-c3.html">
-                            C3
+                        <a class="left-menu-link" href="{{ action('ProfileController@changePass') }}">
+                            Change Password
                         </a>
                     </li>
                     <li>
-                        <a class="left-menu-link" href="charts-peity.html">
-                            Peity
+                        <a class="left-menu-link" href="#">
+                           Add Bank Account
+                        </a>
+                    </li>
+                     <li>
+                        <a class="left-menu-link" href="#">
+                           Add Trading Account
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="left-menu-list-separator"><!-- --></li>
+            <li >
+                <a class="left-menu-link" href="/home">
+                    <i class="left-menu-link-icon icmn-plus"><!-- --></i>
+                    <span class="menu-top-hidden">Add Funds</span>
+                </a>
+            </li>
+            <li >
+                <a class="left-menu-link" href="/home">
+                    <i class="left-menu-link-icon icmn-minus"><!-- --></i>
+                    <span class="menu-top-hidden">Withdrawal Funds</span>
+                </a>
+            </li>
+            <li class="left-menu-list-separator"><!-- --></li>
+             <li class="left-menu-list-submenu">
+                <a class="left-menu-link" href="javascript: void(0);">
+                    <i class="left-menu-link-icon icmn-drag-right"><!-- --></i> Transfer Funds
+                </a>
+                <ul class="left-menu-list list-unstyled">
+                    <li>
+                        <a class="left-menu-link" href="">
+                            Deposit Request
+                        </a>
+                    </li>
+                    <li>
+                        <a class="left-menu-link" href="#">
+                           Withdrawal Request
                         </a>
                     </li>
                 </ul>
@@ -262,6 +292,6 @@
                     Gallery
                 </a>
             </li>
-          </ul>
+        </ul>
     </div>
 </nav>

@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'My Application',
+    'name' => 'instaforex malaysia',
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Kuala_Lumpur',
 
     /*
     |--------------------------------------------------------------------------
@@ -176,10 +176,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        //Add and man=intanin by paihz
+        //Add and maintain by paihz
         Collective\Html\HtmlServiceProvider::class,
         Jrean\UserVerification\UserVerificationServiceProvider::class,
-
+        Recca0120\LaravelTracy\ServiceProvider::class, //Nette Tracy for Laravel 5
     ],
 
     /*

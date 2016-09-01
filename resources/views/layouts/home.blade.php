@@ -11,7 +11,7 @@
     <link href="#" rel="apple-touch-icon" type="image/png" sizes="72x72">
     <link href="#" rel="apple-touch-icon" type="image/png">
     <link href="#" rel="icon" type="image/png">
-    <link href="favicon.ico" rel="shortcut icon">
+    <link href="{{ asset('favicon.ico') }}" rel="shortcut icon">
 
     <!-- HTML5 shim and Respond.js for < IE9 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

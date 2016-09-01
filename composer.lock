@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4ef3a4a18b36c407ef83c63d5e712557",
-    "content-hash": "14e3bcf8b63638bb19d4436dce6745fe",
+    "hash": "b4a6e87757b3f08392fecf5885ebf457",
+    "content-hash": "a9e2afe54b65226686fbefeedb8c415d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -975,23 +975,24 @@
         },
         {
             "name": "jomweb/billplz",
-            "version": "v0.5.2",
+            "version": "v0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jomweb/billplz.git",
-                "reference": "c6e00fe437ee6be998f69bf494c224c1f34085b5"
+                "reference": "de83fea68214ea9c98014d6fec10e0378e7f87d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jomweb/billplz/zipball/c6e00fe437ee6be998f69bf494c224c1f34085b5",
-                "reference": "c6e00fe437ee6be998f69bf494c224c1f34085b5",
+                "url": "https://api.github.com/repos/jomweb/billplz/zipball/de83fea68214ea9c98014d6fec10e0378e7f87d3",
+                "reference": "de83fea68214ea9c98014d6fec10e0378e7f87d3",
                 "shasum": ""
             },
             "require": {
                 "laravie/codex": "^0.2",
                 "mathiasverraes/money": "^1.3",
                 "nesbot/carbon": "^1.12",
-                "php": ">=5.5"
+                "php": ">=5.5",
+                "php-http/multipart-stream-builder": "^0.1.1"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.4",
@@ -1023,20 +1024,20 @@
                 }
             ],
             "description": "PHP Agnostic library for working with BillPlz API",
-            "time": "2016-08-22 23:48:35"
+            "time": "2016-08-23 01:15:57"
         },
         {
             "name": "jrean/laravel-user-verification",
-            "version": "v3.0.2",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jrean/laravel-user-verification.git",
-                "reference": "97ac5b9f849f35d2ef32b08fe22dc7dcf6449af3"
+                "reference": "e33146c8a90dcac7fa4fee687c460b5766c7cf5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jrean/laravel-user-verification/zipball/97ac5b9f849f35d2ef32b08fe22dc7dcf6449af3",
-                "reference": "97ac5b9f849f35d2ef32b08fe22dc7dcf6449af3",
+                "url": "https://api.github.com/repos/jrean/laravel-user-verification/zipball/e33146c8a90dcac7fa4fee687c460b5766c7cf5d",
+                "reference": "e33146c8a90dcac7fa4fee687c460b5766c7cf5d",
                 "shasum": ""
             },
             "require": {
@@ -1068,20 +1069,20 @@
                 "user activation",
                 "user verification"
             ],
-            "time": "2016-08-23 10:35:30"
+            "time": "2016-08-26 09:35:27"
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.2",
+            "version": "v5.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "2213ca11f6fa849ca7c96308934cc6881ab434e8"
+                "reference": "7159ffbadc79558a42ece2cdd1ec2e7e13105b5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/2213ca11f6fa849ca7c96308934cc6881ab434e8",
-                "reference": "2213ca11f6fa849ca7c96308934cc6881ab434e8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7159ffbadc79558a42ece2cdd1ec2e7e13105b5d",
+                "reference": "7159ffbadc79558a42ece2cdd1ec2e7e13105b5d",
                 "shasum": ""
             },
             "require": {
@@ -1195,20 +1196,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-24 23:23:29"
+            "time": "2016-08-26 21:40:26"
         },
         {
             "name": "laravelcollective/html",
-            "version": "dev-master",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "c4c87916c34e04aa9d4e860315ab1858304d786a"
+                "reference": "961ce141c16c6b085128f209496c26efd3e681ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/c4c87916c34e04aa9d4e860315ab1858304d786a",
-                "reference": "c4c87916c34e04aa9d4e860315ab1858304d786a",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/961ce141c16c6b085128f209496c26efd3e681ca",
+                "reference": "961ce141c16c6b085128f209496c26efd3e681ca",
                 "shasum": ""
             },
             "require": {
@@ -1225,11 +1226,6 @@
                 "phpunit/phpunit": "~5.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.3-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Collective\\Html\\": "src/"
@@ -1254,7 +1250,7 @@
             ],
             "description": "HTML and Form Builders for the Laravel Framework",
             "homepage": "http://laravelcollective.com",
-            "time": "2016-08-04 03:49:50"
+            "time": "2016-08-27 23:52:43"
         },
         {
             "name": "laravie/codex",
@@ -1901,16 +1897,16 @@
         },
         {
             "name": "php-http/httplug",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/httplug.git",
-                "reference": "2061047ca53a08a6b8f52e997b2a76f386b397dd"
+                "reference": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/httplug/zipball/2061047ca53a08a6b8f52e997b2a76f386b397dd",
-                "reference": "2061047ca53a08a6b8f52e997b2a76f386b397dd",
+                "url": "https://api.github.com/repos/php-http/httplug/zipball/1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
+                "reference": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
                 "shasum": ""
             },
             "require": {
@@ -1953,7 +1949,7 @@
                 "client",
                 "http"
             ],
-            "time": "2016-01-26 14:34:50"
+            "time": "2016-08-31 08:30:17"
         },
         {
             "name": "php-http/message",
@@ -2073,16 +2069,16 @@
         },
         {
             "name": "php-http/multipart-stream-builder",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/multipart-stream-builder.git",
-                "reference": "c55a81001be18dd8ceae5291249a85c08d9be7a4"
+                "reference": "29f8b0a9e00ebaa7cbf0f2f0f7db4e0bc3f403d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/multipart-stream-builder/zipball/c55a81001be18dd8ceae5291249a85c08d9be7a4",
-                "reference": "c55a81001be18dd8ceae5291249a85c08d9be7a4",
+                "url": "https://api.github.com/repos/php-http/multipart-stream-builder/zipball/29f8b0a9e00ebaa7cbf0f2f0f7db4e0bc3f403d2",
+                "reference": "29f8b0a9e00ebaa7cbf0f2f0f7db4e0bc3f403d2",
                 "shasum": ""
             },
             "require": {
@@ -2125,7 +2121,7 @@
                 "message",
                 "stream"
             ],
-            "time": "2016-08-10 07:59:29"
+            "time": "2016-08-31 10:13:17"
         },
         {
             "name": "php-http/promise",
@@ -2416,6 +2412,136 @@
                 "uuid"
             ],
             "time": "2016-08-02 18:39:32"
+        },
+        {
+            "name": "recca0120/laravel-tracy",
+            "version": "v1.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recca0120/laravel-tracy.git",
+                "reference": "83771fcae5701d00909f3f5fe4321970caf377cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recca0120/laravel-tracy/zipball/83771fcae5701d00909f3f5fe4321970caf377cf",
+                "reference": "83771fcae5701d00909f3f5fe4321970caf377cf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1",
+                "illuminate/database": "~5.1",
+                "illuminate/routing": "~5.1",
+                "illuminate/session": "~5.1",
+                "illuminate/support": "~5.1",
+                "php": ">=5.5.9",
+                "recca0120/terminal": "~1.5.8",
+                "tracy/tracy": "^2.4.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.2",
+                "nesbot/carbon": "~1.20",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Recca0120\\LaravelTracy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recca0120",
+                    "email": "recca0120@gmail.com"
+                }
+            ],
+            "description": "A Laravel Package to integrate Nette Tracy Debugger",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "error",
+                "error handler",
+                "laravel",
+                "nette",
+                "profiler",
+                "tracy",
+                "webprofiler"
+            ],
+            "time": "2016-08-30 16:46:10"
+        },
+        {
+            "name": "recca0120/terminal",
+            "version": "v1.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recca0120/laravel-terminal.git",
+                "reference": "0c99312a739f30813d641b2157eef5e689b7917d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recca0120/laravel-terminal/zipball/0c99312a739f30813d641b2157eef5e689b7917d",
+                "reference": "0c99312a739f30813d641b2157eef5e689b7917d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.1",
+                "illuminate/database": "~5.1",
+                "illuminate/encryption": "~5.1",
+                "illuminate/filesystem": "~5.1",
+                "illuminate/routing": "~5.1",
+                "php": ">=5.5.9",
+                "symfony/finder": "2.7.*|2.8.*|3.0.*|3.1.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.2",
+                "nesbot/carbon": "~1.20",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Recca0120\\Terminal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recca0120",
+                    "email": "recca0120@gmail.com"
+                }
+            ],
+            "description": "run laravel artisan command in web application",
+            "keywords": [
+                "artisan",
+                "console",
+                "laravel",
+                "terminal",
+                "web",
+                "web artisan"
+            ],
+            "time": "2016-08-26 09:16:02"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3304,6 +3430,68 @@
             "time": "2016-07-26 08:04:17"
         },
         {
+            "name": "tracy/tracy",
+            "version": "v2.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/tracy.git",
+                "reference": "6b67ebb3a4ab663f7230f769627b6d1e138b1423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/tracy/zipball/6b67ebb3a4ab663f7230f769627b6d1e138b1423",
+                "reference": "6b67ebb3a4ab663f7230f769627b6d1e138b1423",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-session": "*",
+                "php": ">=5.4.4"
+            },
+            "require-dev": {
+                "nette/di": "~2.3",
+                "nette/tester": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src"
+                ],
+                "files": [
+                    "src/shortcuts.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "Tracy: useful PHP debugger",
+            "homepage": "https://tracy.nette.org",
+            "keywords": [
+                "debug",
+                "debugger",
+                "nette"
+            ],
+            "time": "2016-07-31 16:43:38"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.3.0",
             "source": {
@@ -4063,16 +4251,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.5.3",
+            "version": "5.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "08745ede58cb02b4043adadc09a01c09e698e3f7"
+                "reference": "3e6e88e56c912133de6e99b87728cca7ed70c5f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/08745ede58cb02b4043adadc09a01c09e698e3f7",
-                "reference": "08745ede58cb02b4043adadc09a01c09e698e3f7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e6e88e56c912133de6e99b87728cca7ed70c5f5",
+                "reference": "3e6e88e56c912133de6e99b87728cca7ed70c5f5",
                 "shasum": ""
             },
             "require": {
@@ -4137,20 +4325,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-08-25 04:45:28"
+            "time": "2016-08-26 07:11:44"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.2.5",
+            "version": "3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "8f444748e174e49d5bd2bd7a9bebbf44edbb55fb"
+                "reference": "46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/8f444748e174e49d5bd2bd7a9bebbf44edbb55fb",
-                "reference": "8f444748e174e49d5bd2bd7a9bebbf44edbb55fb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49",
+                "reference": "46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49",
                 "shasum": ""
             },
             "require": {
@@ -4196,7 +4384,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-08-24 16:58:26"
+            "time": "2016-08-26 05:51:59"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
