@@ -18,6 +18,7 @@ class HomeController extends Controller
     public function index(){
 
         $userID = Auth::id();
+        $data['loginLast'] = date('d F, Y', strtotime(Auth::user()->last_login));
         $data['checkDB'] = DB::table('profiles')->where('user_id', '=', $userID )->exists();
    	
    return view('user.dashboard', $data);

@@ -77,12 +77,14 @@
                             <img src="{{ asset('images/avatar.png') }}" alt="Alternative text to the image">
                         </a>
                         <br />
-                        
-                        <p>Last login {{ date('d F, Y', strtotime(Auth::user()->created_at)) }}</p>
                         <p>
-                            <span class="donut donut-success"></span>
-                            Online
+                            <span class="donut donut-success"></span>Online
                         </p>
+                          @if($loginLast == "01 January, 1970")
+                              New User
+                          @else
+                            Last login: {{ $loginLast }}
+                          @endif
                     </div>
                 </div>
             </section>
