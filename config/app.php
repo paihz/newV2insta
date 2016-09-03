@@ -175,11 +175,10 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
         //Add and maintain by paihz
         Collective\Html\HtmlServiceProvider::class,
         Jrean\UserVerification\UserVerificationServiceProvider::class,
-        Recca0120\LaravelTracy\ServiceProvider::class, //Nette Tracy for Laravel 5
+        Intervention\Image\ImageServiceProvider::class, //image manipulate
     ],
 
     /*
@@ -231,7 +230,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class,
-
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];

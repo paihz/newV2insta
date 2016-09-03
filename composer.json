@@ -12,7 +12,7 @@
         "doctrine/dbal": "^2.5",
         "jomweb/billplz": "^0.5",
         "php-http/guzzle6-adapter": "^1.1",
-        "recca0120/laravel-tracy": "^1.7"
+        "intervention/image": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
